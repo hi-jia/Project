@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/luncher_bg"
+    tools:context=".Spalsh" >
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp" />
+
+    <TextView
+        android:id="@+id/tv_spalsh_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spalsh_tv_version"
+        android:layout_alignTop="@+id/spalsh_tv_version"
+        android:layout_marginTop="51dp"
+        android:text=""
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/spalsh_tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progressBar1"
+        android:layout_alignTop="@+id/progressBar1"
+        android:layout_marginTop="80dp"
+        android:shadowColor="#DC4612"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:text="版本号：1.0" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/tv_setting_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_setting_title"
+         android:textSize="18sp"
+         android:paddingBottom="10dp"
+        android:text="提醒更新" />
+
+    <TextView
+        android:id="@+id/tv_setting_closeUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/tv_setting_update"
+        android:textSize="18sp"
+        android:text="关闭提醒" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_setting_closeUpdate"
+        android:background="#696969" />
+
+    <CheckBox
+        android:id="@+id/cb_setting_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="29dp" />
+
+</RelativeLayout>
